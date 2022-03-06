@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .canvas{
@@ -98,11 +98,11 @@ body{
     font-weight: bold;
 }
 
-.MainContainer{
+.MainContainer1{
     width: 100%;
     height: 700px;  
     position: relative;
-    background-color: rgb(250, 235, 212); ;
+    background-color: rgb(247, 230, 205); ;
     
 }
 
@@ -154,7 +154,7 @@ body{
     top: 130px;
     left: 800px;
     position: absolute;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .text1{
@@ -255,8 +255,138 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
 
+}
+
+#box_banner{
+    width: 200px;
+    height: 145px;
+    position: absolute;
+    left: 110px;
+    top: 40px;
+    opacity: 70%;
+}
+
+.MainContainer2{
+    width: 100%;
+    height: 1000px;  
+    position: relative;
+    background-color: rgb(255, 255, 255); 
+
+    
+}
+
+.TextArea2{
+    width: auto;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.TextArea2>h1{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    opacity: 10%;
+    letter-spacing: 7px;
+}
+
+.TextArea2>h3{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 2;
+    top: 50px;
+    opacity: 90%;
+}
+
+.TextArea2>p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    opacity: 90%;
+}
+
+.Img2{
+    width: 100%;
+    height: 300px;
+}
+.box2{
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.box2>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.box2>ul>li{
+    display: inline-block;
+    padding: 0px;
+    margin: 5px;
+    border-style: groove;   
+    border-width: 2px; 
+    border-radius: 5px;
+    
+}
+.box2>ul>li>h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 20px;
+    padding: 0px;
+    
+}
+.box2>ul>li>p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+#circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #46ce73;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;    
+}
+
+#circle>div{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #46ce73;
+    border: 2px solid #46ce73;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+#circle>div>img{
+    position: relative;
+    top: 22px;
+    left: 22px;
 }
